@@ -1,0 +1,72 @@
+#main {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+}
+
+li {
+    font-family: 'Satisfy', cursive;
+    list-style: none;
+    position: relative;
+    margin-bottom: 20px;
+    background-color: #e8e4c5
+
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background-color: black;
+  color: white;
+  height: 7%;
+  width: 10%;
+}
+
+body {
+  background-color: beige;
+}
+
+#menuStuffs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu {
+  width: 50%
+}
+h4 {
+  text-align: center;
+  font-size: 30;
+}
+
+.price {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  font-size: 25px;
+  font-family: 'Satisfy', cursive;
+}
+.dishName {
+  position: absolute;
+  font-family: 'Satisfy', cursive;
+  left: 35%;
+  top: 10px;
+}
+
+.dishDescription {
+  font-family: 'Satisfy', cursive;
+  position: absolute;
+  left: 205px;
+  top: 75px;
+}
+#menuSelect {
+  margin-left: 41%;
+}
